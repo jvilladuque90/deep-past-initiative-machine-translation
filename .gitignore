@@ -1,0 +1,42 @@
+# ---- Secrets & credentials ----
+.env
+.env.*
+!.env.example
+kaggle.json
+**/kaggle.json
+*credentials*
+*secret*
+*.pem
+*.key
+
+# ---- Python ----
+__pycache__/
+*.py[cod]
+*.egg-info/
+.ipynb_checkpoints/
+.venv/
+venv/
+env/
+
+# ---- Data (licensed / competition — do NOT redistribute) ----
+# Kaggle "Deep Past Initiative" competition data + eBL lexicon/dictionary.
+*.csv
+*.tsv
+*.json
+!.env.example
+data/
+datasets/
+
+# ---- Model artifacts & checkpoints (large) ----
+ckpt_*/
+output/
+final_merged/
+*.bin
+*.safetensors
+*.pt
+*.pth
+checkpoints/
+
+# ---- Misc ----
+.DS_Store
+*.log
