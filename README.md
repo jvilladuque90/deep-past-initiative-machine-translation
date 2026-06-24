@@ -98,6 +98,12 @@ The CSV datasets are **not included** in this repository — they are competitio
 - Try larger LoRA rank / more target modules, and back-translation or monolingual pre-training on `published_texts`.
 - Refactor the notebook into a small package (`src/`) with a CLI for reproducible runs (see structure notes).
 
+## License
+
+The **code** in this repository is released under the [MIT License](LICENSE).
+
+This does **not** cover the datasets, which are not included here and retain their own licenses — the Kaggle "Deep Past Initiative" competition data and the electronic Babylonian Library (eBL) lexicon & dictionary. Obtain them from their original sources and respect their terms.
+
 ---
 
 *Educational / research project for the Deep Past Initiative Akkadian translation challenge.*
